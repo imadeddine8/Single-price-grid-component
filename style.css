@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+.container{
+    width: 650px;
+    margin: auto;
+    margin-top: 150px;
+}
+.container .header{
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container .header h2{
+    color: hsl(179, 62%, 43%);
+    padding: 2rem 0 1.5rem 2rem;
+}
+.container .header .pBold{
+    color: hsl(71, 73%, 54%);
+    padding: 0 0 1rem 2rem;
+    font-weight: 700;
+}
+.container .header .p{
+    color: hsl(218, 22%, 67%);
+    padding: 0 5rem 2rem 2rem;
+    line-height: 1.5rem;
+}
+
+.container .rightLeft{
+    display: flex;
+    flex-direction: row;
+}
+.container .rightLeft .left-item{
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    color: white;
+    border-bottom-left-radius: 10px;
+}
+.container .left-item p{
+    font-weight: 700;
+    padding: 2rem 0 1rem 2rem;
+    color: white;
+}
+.container .left-item .price{
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0.5rem 2rem;
+    color: white;
+}
+.container .left-item .price .dollar{
+    font-weight: 700;
+    font-size: 30px;
+}
+.container .left-item .price .month{
+    padding: 0.5rem 0 0 0.5rem;
+    color: hsl(204, 43%, 93%);
+}
+.container .left-item .fullaccess{
+    padding: 0 0 1.5rem 2rem;
+    color: hsl(204, 43%, 93%);
+}
+.container .left-item button{
+    color: white;
+    font-weight: 700;
+    width: 240px;
+    height: 45px;
+    background-color: hsl(71, 73%, 54%);
+    margin: 0 0 2rem 2rem;
+    border-radius: 10px;
+}
+.container .rightLeft .right-item{
+    background-color: #4abebd;
+    width: 50%;
+    border-bottom-right-radius: 10px;
+}
+.container .right-item .pBold{
+    color: white;
+    padding: 2rem 0 1rem 2rem;
+    font-weight: 700;
+}
+.container .right-item p{
+    color: hsl(204, 43%, 93%);
+    padding: 0 5.5rem 0 2rem;
+    line-height: 19px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 20px; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
